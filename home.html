@@ -1,1 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Custom 3D Parts – Get a Free Quote</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: #0f172a;
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+    }
+    nav {
+      margin-top: 20px;
+    }
+    nav a {
+      color: #38bdf8;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .features, .testimonials, .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: white;
+      border-radius: 8px;
+      padding: 20px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    }
+
+    .gallery img {
+      width: 100%;
+      border-radius: 8px;
+    }
+
+    form {
+      background: white;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+    form button {
+      background: #0ea5e9;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 6px;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+    form button:hover {
+      background: #0284c7;
+    }
+
+    footer {
+      background: #0f172a;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Custom 3D Printed Parts</h1>
+  <p>Precision made. Fast turnaround. Affordable pricing.</p>
+  <nav>
+    <a href="#quote">Get a Quote</a>
+    <a href="#gallery">Sample Work</a>
+  </nav>
+</header>
+
+<section>
+  <h2>What We Offer</h2>
+  <div class="features">
+    <div class="card">
+      <h3>Custom Designs</h3>
+      <p>Send your idea, drawing, or sketch – we’ll turn it into a real part.</p>
+    </div>
+    <div class="card">
+      <h3>Fast Turnaround</h3>
+      <p>Most orders ship in 1–3 business days.</p>
+    </div>
+    <div class="card">
+      <h3>Material Options</h3>
+      <p>PLA, PETG, ABS, Resin, Nylon and more.</p>
+    </div>
+    <div class="card">
+      <h3>Nationwide Shipping</h3>
+      <p>We deliver anywhere in the country. Local pickup available.</p>
+    </div>
+  </div>
+</section>
+
+<section id="gallery">
+  <h2>Sample Work</h2>
+  <div class="gallery">
+    <div><img src="https://via.placeholder.com/400x300?text=Gearbox+Housing" alt="Part 1" /></div>
+    <div><img src="https://via.placeholder.com/400x300?text=Custom+Bracket" alt="Part 2" /></div>
+    <div><img src="https://via.placeholder.com/400x300?text=Artistic+Model" alt="Part 3" /></div>
+  </div>
+</section>
+
+<section>
+  <h2>What Our Clients Say</h2>
+  <div class="testimonials">
+    <div class="card">"Incredible quality and fast delivery!" – Alex R.</div>
+    <div class="card">"Exactly what I needed. Great service!" – Priya K.</div>
+  </div>
+</section>
+
+<section id="quote">
+  <h2>Get a Free Quote</h2>
+  <form action="https://formspree.io/f/your-form-id" method="POST">
+    <input type="text" name="name" placeholder="Your Name" required />
+    <input type="email" name="_replyto" placeholder="Your Email" required />
+    <textarea name="message" placeholder="Describe your part or idea..." rows="5" required></textarea>
+    <input type="file" name="attachment" />
+    <button type="submit">Submit Request</button>
+  </form>
+</section>
+
+<footer>
+  <p>© 2025 Custom 3D Parts. All rights reserved.</p>
+  <p>Email: contact@yourdomain.com</p>
+</footer>
+
+</body>
+</html>
 
