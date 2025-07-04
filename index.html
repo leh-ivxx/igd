@@ -143,13 +143,22 @@
 
 <section id="quote">
   <h2>Get a Free Quote</h2>
-  <form action="https://formspree.io/f/mblyejpk" method="POST">
-    <input type="text" name="name" placeholder="Your Name" required />
-    <input type="email" name="_replyto" placeholder="Your Email" required />
-    <textarea name="message" placeholder="Describe your part or idea..." rows="5" required></textarea>
-    <input type="file" name="attachment" />
-    <button type="submit">Submit Request</button>
-  </form>
+<!-- modify this form HTML and place wherever you want your form -->
+<form
+  action="https://formspree.io/f/mblyejpk"
+  method="POST"
+  enctype="multipart/form-data"
+>
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Your file:
+    <input type="file" name="upload">
+  </label>
+  <button type="submit">Send</button>
+</form>
 </section>
 
 <footer>
